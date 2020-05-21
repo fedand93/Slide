@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Swiper</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html">Swiper</a>
+            <a href="slick/index-2.html">Slick</a>
+            <a href="OwlCarousel/index-3.html">OwlCarousel</a>
+        </nav>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/474x/f7/b7/5f/f7b75f38f0a5838a61f5b9f575ef2b2b--free-wallpapers-for-desktop-desktop-backgrounds.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://image.freepik.com/free-vector/care-emoji-hugging-red-heart_1319-959.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://bipbap.ru/wp-content/uploads/2017/04/1423036688.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://mirpozitiva.ru/wp-content/uploads/2019/11/1477469554_pole.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://www.ejin.ru/wp-content/uploads/2017/11/maxresdefault-15-800x450.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/originals/58/1f/c4/581fc4aa35e9c8671f6692959e0d8208.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://www.ejin.ru/wp-content/uploads/2017/11/98312860_4278666_1327494967_77886662_kollektsija_krasivyx_oboev_na_temu___priroda_4_hq_2011_914408_resize.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://bipbap.ru/wp-content/uploads/2017/04/maxresdefault-22.jpg" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://natworld.info/wp-content/uploads/2018/01/-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B-e1534007720297-900x500.jpg" alt="img">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+            enabled: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
+</body>
+
+</html>
